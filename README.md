@@ -14,7 +14,11 @@
 ["1", "2", "3"].map(parseInt)
 ```
 
-* `["1", "2", "3"]`
+* ["1", "2", "3"]
 * [1, 2, 3]
 * [0, 1, 2]
 * other
+
+### 资料链接
+
+* [http://javascript-puzzlers.herokuapp.com/](http://javascript-puzzlers.herokuapp.com/

@@ -94,7 +94,9 @@ console.log(count);
 ```
 var ary = [0,1,2];
 ary[10] = 10;
-ary.filter(function(x) { return x === undefined;});
+ary.filter(function(x) {
+  return x === undefined;
+});
 ```
 
 * [undefined × 7]
@@ -269,7 +271,9 @@ if ([0]) {
 ```
 var ary = Array(3);
 ary[0]=2
-ary.map(function(elem) { return '1'; });
+ary.map(function(elem) {
+  return '1';
+});
 ```
 
 * [2, 1, 1]
@@ -636,4 +640,4 @@ function bar(a) {
 
 ### 资料链接
 
-* [http://javascript-puzzlers.herokuapp.com/](http://javascript-puzzlers.herokuapp.com/
+* [http://javascript-puzzlers.herokuapp.com/](http://javascript-puzzlers.herokuapp.com/)
